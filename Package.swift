@@ -31,8 +31,7 @@ let package = Package(
             targets: [
                 "FirebaseABTesting",
                 "FirebasePerformance",
-                "FirebaseRemoteConfig",
-                "Protobuf"
+                "FirebaseRemoteConfig"
             ]),
         .library(
             name: "FirebaseCrashlytics",
@@ -57,7 +56,6 @@ let package = Package(
         .binaryTarget(name: "FirebaseABTesting", path: "./FirebasePerformance/FirebaseABTesting.xcframework"),
         .binaryTarget(name: "FirebasePerformance", path: "./FirebasePerformance/FirebasePerformance.xcframework"),
         .binaryTarget(name: "FirebaseRemoteConfig", path: "./FirebasePerformance/FirebaseRemoteConfig.xcframework"),
-        .binaryTarget(name: "Protobuf", path: "./FirebasePerformance/Protobuf.xcframework"),
         // FirebaseCrashlytics
         .binaryTarget(name: "FirebaseCrashlytics", path: "./FirebaseCrashlytics/FirebaseCrashlytics.xcframework"),
     ]
