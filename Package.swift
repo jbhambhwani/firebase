@@ -27,13 +27,6 @@ let package = Package(
                 "PromisesObjC",
             ]),
         .library(
-            name: "FirebasePerformance",
-            targets: [
-                "FirebaseABTesting",
-                "FirebasePerformance",
-                "FirebaseRemoteConfig"
-            ]),
-        .library(
             name: "FirebaseCrashlytics",
             targets: [
                 "FirebaseCrashlytics"
