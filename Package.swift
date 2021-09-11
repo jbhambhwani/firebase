@@ -52,10 +52,6 @@ let package = Package(
         .binaryTarget(name: "GoogleUtilities", path: "./FirebaseAnalytics/GoogleUtilities.xcframework"),
         .binaryTarget(name: "nanopb", path: "./FirebaseAnalytics/nanopb.xcframework"),
         .binaryTarget(name: "PromisesObjC", path: "./FirebaseAnalytics/PromisesObjC.xcframework"),
-        // FirebasePerformance
-        .binaryTarget(name: "FirebaseABTesting", path: "./FirebasePerformance/FirebaseABTesting.xcframework"),
-        .binaryTarget(name: "FirebasePerformance", path: "./FirebasePerformance/FirebasePerformance.xcframework"),
-        .binaryTarget(name: "FirebaseRemoteConfig", path: "./FirebasePerformance/FirebaseRemoteConfig.xcframework"),
         // FirebaseCrashlytics
         .binaryTarget(name: "FirebaseCrashlytics", path: "./FirebaseCrashlytics/FirebaseCrashlytics.xcframework"),
     ]
