@@ -31,6 +31,13 @@ let package = Package(
             targets: [
                 "FirebaseCrashlytics"
             ]),
+        .library(
+            name: "FirebasePerformance",
+            targets: [
+                "FirebaseABTesting",
+                "FirebasePerformance",
+                "FirebaseRemoteConfig"
+            ])
     ],
     dependencies: [
     ],
